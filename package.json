@@ -1,5 +1,5 @@
 {
-  "name": "libmanagement",
+  "name": "libmanagementproject",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,13 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mysql2": "^3.11.0"
+    "express-validator": "^7.2.0",
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.2"
   }
 }
